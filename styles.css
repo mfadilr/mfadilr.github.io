@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "pixelfont";               /* name you’ll use in CSS */
+  src: url("fonts/fs-pixel-sans-unicode-regular.ttf") format("truetype");
+}
+
+body{
+  padding: 25px;
+  background-color: black;
+  font-family: "pixelfont", sans-serif;
+  color: white;
+  font-size: 150%;
+  line-height: 0.81;
+}
+
+.title {
+	color: #f0f0f0;
+	font-family: 'Jersey 10';
+	font-size: 160%;
+}
+a {
+  color: #aaffff;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  border-top: 3px solid #aaffff;
+  border-bottom: 3px solid #aaffff;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.container {
+  min-width: 10%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.imgfloat {
+  float: right;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  width: 200px;
+  image-rendering: pixelated;
+}
+.center {
+	text-align: center;
+}
+.artimg {
+	width: 150px;
+	image-rendering: pixelated;
+	filter: grayscale(100%) brightness(80%);       /* make images grayscale */
+	transition: filter 0.3s ease;  /* smooth transition when hovering */
+}
+.artimg:hover {
+	filter: grayscale(0%) brightness(100%);         /* color appears on hover */
+}
+.artimg:active {
+	filter: grayscale(0%) brightness(100%);         /* color appears on hover */
+}
+.artimgbw {
+	width: 150px;
+	image-rendering: pixelated;
+}
+.imgcenter {
+	text-align: center;
+}
+.sect {
+	text-align: center;
+	color: white;
+	font-family: "pixelfont";
+	font-size: 150%;
+	line-height: 1;
+	margin-top: 20px;
+	margin-bottom: -10px;
+}
+.linkimg {
+	width: 100px;
+	image-rendering: pixelated;
+}
+.music-list {
+  padding-left: 25px;       /* indents everything under "Music I listen to:" */
+  margin-top: 0;            /* optional, remove extra spacing above list */
+  list-style-type: none;    /* optional: default bullets */
+}
+
+.artist {
+  color: white;             /* artist names in white */
+}
+
+.album {
+  color: #888888;           /* albums in gray */
+}
+
+.blog-title {
+	color: yellow;
+	font-family: "pixelfont";
+	font-size: 120%;
+}
+
+.spoiler {
+	color: #FFD700;
+}
+
+.blog-post {
+	padding-left: 20px;
+	text-align: left;
+}
