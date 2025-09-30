@@ -49,7 +49,7 @@ a {
 .artimg {
 	width: 150px;
 	image-rendering: pixelated;
-	filter: grayscale(100%) brightness(80%);       /* make images grayscale */
+	filter: grayscale(100%) brightness(95%);       /* make images grayscale */
 	transition: filter 0.3s ease;  /* smooth transition when hovering */
 }
 .artimg:hover {
@@ -106,4 +106,5 @@ a {
 .blog-post {
 	padding-left: 20px;
 	text-align: left;
+
 }
